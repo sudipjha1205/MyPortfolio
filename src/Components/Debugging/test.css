@@ -1,0 +1,11 @@
+/* Add your styles for the custom file button */
+.custom-file-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
