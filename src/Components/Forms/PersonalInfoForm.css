@@ -1,0 +1,139 @@
+/* src/components/PersonalInfoForm.css */
+
+.form-style {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: end;
+  }
+  
+  .label-style,
+  .state-label-style {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .photo-upload {
+    display: flex;
+    align-items: center;
+  }
+  
+  .photo-label-style {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .phone-container {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+
+  .phone-container .select-style{
+    width: 70px;
+    margin-right: 8px;
+  }
+
+  .address-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .address-container .state-label-style{
+    margin-right: 15px;
+  }
+  
+  .input-style,
+  .select-style,
+  .textarea-style {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3 ease;
+
+    &:hover{
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);;
+    }
+
+    &:focus{
+        border-color: rgba(207, 181, 181, 0.3);
+        outline: none;
+    }
+  }
+  
+  
+  .button-style {
+    background-color: #4caf70;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    transition: transform 0.3s;
+    font-size: 15px;
+    font-weight: 600;
+
+  }
+  
+  .button-style:hover {
+    color: #4caf25;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #4caf50;
+    transform: scale(1.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    width: auto;
+  }
+  
+  .input-group {
+    display: flex;
+  }
+  
+  .input-group-item {
+    flex: 1;
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+
+  /* Add your styles for the custom file button */
+  .custom-file-button {
+    margin-left: 10px; /* Adjust the margin as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  } 
+
+  .file-info-container {
+    display: flex;
+    align-items: center; /* Vertically center the children */
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+
+  .file-info {
+    margin: 0; /* Reset default margin for paragraphs */
+    margin-left: 3px; /* Adjust the margin as needed */
+  }
+
+
+  @media (max-width: 767px) {
+    .form-style {
+      width: 85%; /* Set the max width for smaller screens to 75% */
+    }
+  }
+  /* Add more styles as needed */
+  
