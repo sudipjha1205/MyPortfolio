@@ -1,5 +1,5 @@
 // actions.js
-import { ADD_ACADEMIC_FORM, DELETE_ACADEMIC_FORM, UPDATE_ACADEMIC_FORM, UPDATE_FORM_FIELD, ADD_WORK_FORM, DELETE_WORK_FORM,UPDATE_WORK_FORM } from '../Redux/ActionTypes';
+import { ADD_ACADEMIC_FORM, DELETE_ACADEMIC_FORM, UPDATE_ACADEMIC_FORM, UPDATE_FORM_FIELD, ADD_WORK_FORM, DELETE_WORK_FORM,UPDATE_WORK_FORM, ADD_INTO_LIST, DELETE_FROM_LIST, UPDATE_THE_LIST, ADD_SKILLS } from '../Redux/ActionTypes';
 
 export const addAcademicForm = (form) => ({
   type: ADD_ACADEMIC_FORM,
@@ -35,3 +35,23 @@ export const deleteWorkForm = (id) => ({
   type: DELETE_WORK_FORM,
   payload: id,
 });
+
+export const addSkills = (form,formName) => ({
+  type: ADD_SKILLS,
+  payload: { form, formName }
+})
+
+export const addIntoList = (form,formName) => ({
+  type: ADD_INTO_LIST,
+  payload: { form, formName }
+})
+
+export const deleteFromList = (id,formName) => ({
+  type: DELETE_FROM_LIST,
+  payload: { id,formName }
+})
+
+export const updateTheList = (form,id,formName) => ({
+  type: UPDATE_THE_LIST,
+  payload: { form, id,formName }
+})

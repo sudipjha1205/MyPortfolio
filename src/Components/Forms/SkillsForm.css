@@ -13,6 +13,66 @@
     }
 }
 
+.add-more-column{
+    background-color: #4caf70;
+    margin: 15px;
+    color: black;
+    padding: 9px 14px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    transition: transform 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.add-more-column:hover {
+    color: #4caf25;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #4caf50;
+    transform: scale(1.1);
+  }
+
+.remove-column{
+    background-color: crimson;
+    color: black;
+    padding: 9px 14px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    transition: transform 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.remove-column:hover {
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid crimson;
+    transform: scale(1.1);
+}
+
+.publication-input{
+    width: 80%;
+    margin-left: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3 ease;
+
+    &:hover{
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);;
+    }
+
+    &:focus{
+        border-color: rgba(207, 181, 181, 0.3);
+        outline: none;
+    }
+}
+
 @media (max-width: 767px) {
     .outer-box {
       width: 85%; /* Set the max width for smaller screens to 75% */
