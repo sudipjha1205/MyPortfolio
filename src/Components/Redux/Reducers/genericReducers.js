@@ -5,6 +5,7 @@ const initialState = {
   forms: {
     DescriptionForm: {introduction: "", unique: "", profession: ""},
     PersonalInfoForm: { firstName: "", lastName: "", photo: null, email: "", confirmEmail: "", street: "", city: "", state: "", pin: "", country: "Select Country" },
+    LinksForm: { github: '', linkedin: '', coding: '', instagram: '', facebook: '', blogs: ''}
   },
 };
 

@@ -25,6 +25,7 @@
     };
 
     const handleInputChange = (id, event) => {
+      console.log(event.target)
       const { name, value } = event.target;
       const updatedForm = { id, [name]: value };
       dispatch(updateWorkForm(id, updatedForm));

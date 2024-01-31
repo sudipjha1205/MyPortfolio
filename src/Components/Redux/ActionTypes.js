@@ -17,3 +17,7 @@ export const ADD_INTO_LIST = 'ADD_INTO_LIST';
 export const DELETE_FROM_LIST = 'DELETE_FROM_LIST';
 export const UPDATE_THE_LIST = 'UPDATE_THE_LIST';
 
+//projectsReducer
+export const ADD_PROJECTS = 'ADD_PROJECTS';
+export const DELETE_PROJECTS = 'DELETE_PROJECTS';
+export const UPDATE_PROJECTS = 'UPDATE_PROJECTS';

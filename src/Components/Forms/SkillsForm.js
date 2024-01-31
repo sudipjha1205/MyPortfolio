@@ -71,6 +71,7 @@ const SkillsForm = () => {
         console.log(allSkills);
         console.log(publications);
         console.log(awards);
+        navigate('/ProjectsForm');
     }
 
     return (
