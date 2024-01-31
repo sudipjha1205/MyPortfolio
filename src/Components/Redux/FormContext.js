@@ -13,7 +13,7 @@ export const FormProvider = ({ children }) => {
     // Initialize with default form values
     PersonalInfoForm: { firstName: "", lastName: "", photo: null, email: "", confirmEmail: "", street: "", city: "", state: "", pin: "", country: "Select Country" },
     DescriptionForm: { introduction: "", unique: "", profession: ""},
-    AcademicForm: new Array(),
+    AcademicForm: [],
   };
 
   const formReducer = (state, action) => {

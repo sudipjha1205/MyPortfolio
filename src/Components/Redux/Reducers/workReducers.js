@@ -1,4 +1,3 @@
-// reducer.js
 import { ADD_WORK_FORM, DELETE_WORK_FORM, UPDATE_WORK_FORM } from '../ActionTypes';
 
 const initialState = {
